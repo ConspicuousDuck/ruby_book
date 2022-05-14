@@ -1,0 +1,11 @@
+# the_basics_ex07
+
+=begin 
+What does the following error message tell you?
+
+SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+  from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+=end
+
+# That there is a syntax error. A parenthesis was used when a bracket 
+# should have been used instead.
