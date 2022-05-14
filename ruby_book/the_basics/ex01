@@ -1,0 +1,8 @@
+# the_basics ex01
+
+#Add two strings together that, when concatenated, return your first and last name as your full name in one string.
+
+string1 = "Andy "
+string2 = "Zhu"
+
+puts string1 + string2
