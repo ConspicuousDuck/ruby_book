@@ -9,4 +9,4 @@ name in one string.
 string1 = "Andy "
 string2 = "Zhu"
 
-puts string1 + string2
+string1 + string2
