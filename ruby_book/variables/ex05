@@ -1,0 +1,43 @@
+# ex05
+
+=begin
+Look at the following programs...
+
+Copy Code
+x = 0
+3.times do
+  x += 1
+end
+puts x
+and...
+
+Copy Code
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+What does x print to the screen in each case? Do they both give errors? Are the errors different? Why?
+
+
+=end
+
+=begin 
+What does x print to the screen in each case?
+  1st case: '3' is printed to the screen.
+  2nd case: Error has occured.
+
+Do they both give errors? 
+  No. Only the second case gives an error.
+
+Are the errors different? Why?
+  There is only one error. There is no other error to compare one another.
+
+Why did case 2 get an error?
+  Case 2 got an error because 'x' is not defined. The 'x' you see in the code
+  is inside a block. A block's scope can modify things outside of it, but things
+  outside of it (the block) cannot be reached. You can go out, but can't go in.
+  So 'puts x', returns an error because 'x' is not defined in it's own scope.
+  It does not exist. We cannot reach the 'x' inside the block.
+
