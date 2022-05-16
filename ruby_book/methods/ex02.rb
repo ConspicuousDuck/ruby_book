@@ -23,3 +23,5 @@ What do the following expressions evaluate to?
 4. "four"
 5. nil. Just like puts; print always returns nil
 
+=end
+
