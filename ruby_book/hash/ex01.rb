@@ -12,6 +12,6 @@ your_family = family.select { |k, v| (k == :sisters) || (k == :brothers) }
 your_family.values.flatten
 
 #.values returns an array with  only the values of our sisters: 
-  and brothers: from the hash.
+#  and brothers: from the hash.
 #.flatten made our nested array into 1 array.
 
